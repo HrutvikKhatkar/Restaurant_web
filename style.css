@@ -5,7 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anybody:wght@300;700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script&family=Norican&family=Oleo+Script:wght@700&family=Reenie+Beanie&family=Satisfy&display=swap');
 
-
 body::-webkit-scrollbar{
   display: none;
 }
@@ -17,22 +16,197 @@ body::-webkit-scrollbar{
 html{
     scroll-behavior: smooth;
 }
+@media (prefers-color-scheme: light) {
+.bg-white-mode {
+  background-color: #ffffff; 
+  color: #000000; 
+}
 #navItem1 {
   color: #323f4b;
   font-family: "Aclonica"
 }
-#navItem2 {
+.wcu-section {
+  background-color: #FFFDD0;
+}
+.wcu-section-heading {
+  color: #183b56;
+  font-family: "DM Serif";
+  font-size: 28px;
+  font-weight: 700;
+}
+.wcu-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.explore-menu-section {
+  background-color: white;
+}
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.menu-card-title {
   color: #323f4b;
+  font-family: "Norican";
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.healthy-food-section {
+  background-color: #f9fbfe;
+}
+.healthy-food-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: "Anybody";
+  font-size: 16px;
+  font-weight: 700;
+}
+.delivery-and-payment-section {
+  background-color: white;
+}
+.delivery-and-payment-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.delivery-and-payment-section-description {
+  color: #5a7184;
+  font-family: "Anybody";
+  font-size: 16px;
+  font-weight: 700;
+}
+.thanking-customers-section {
+  background-image: radial-gradient(#fff8db, #fae38c);
+}
+.thanking-customers-section-heading {
+  color: #183b56;
+  font-family: "Reenie Beanie";
+  font-size: 35px;
+  font-weight: 700;
+}
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Anybody";
+  font-size: 20px;
+}
+.follow-us-section {
+  background-color: white;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Oleo Script";
+  font-size: 28px;
+  font-weight: 700;
+}
+
+}
+@media (prefers-color-scheme: dark) {
+.bg-white-mode {
+  background-color: #333; 
+  color: #fff; 
+}
+#navItem1 {
+  color: #ffffff;
   font-family: "Aclonica"
 }
-#navItem3 {
-  color: #323f4b;
-  font-family: "Aclonica"
+.wcu-section {
+  background-color: #26233cd9; /* 根据需要更改深色背景 */
+  color: #fff; /* 调整文字颜色以在深色背景下可读 */
 }
-#navItem4 {
-  color: #323f4b;
-  font-family: "Aclonica"
+.wcu-section-heading {
+  color: #ffffff;
+  font-family: "DM Serif";
+  font-size: 28px;
+  font-weight: 700;
 }
+.wcu-section-description {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.explore-menu-section {
+  background-color: #0000009c;
+}
+.menu-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.menu-card-title {
+  color: #ffffff;
+  font-family: "Norican";
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.healthy-food-section {
+  background-color: #323435;
+}
+.healthy-food-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.healthy-food-section-description {
+  color: #acdaff;
+  font-family: "Anybody";
+  font-size: 16px;
+  font-weight: 700;
+}
+.delivery-and-payment-section {
+  background-color: #0000009c;
+}
+.delivery-and-payment-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.delivery-and-payment-section-description {
+  color: #acdaff;
+  font-family: "Anybody";
+  font-size: 16px;
+  font-weight: 700;
+}
+.thanking-customers-section {
+  background-image: radial-gradient(#8e8e8e, #2d2d2d);
+}
+.thanking-customers-section-heading {
+  color: #ffffff;
+  font-family: "Reenie Beanie";
+  font-size: 35px;
+  font-weight: 700;
+}
+.thanking-customers-section-description {
+  color: #acdaff;
+  font-family: "Anybody";
+  font-size: 20px;
+}
+.follow-us-section {
+  background-color: #0000009c;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Oleo Script";
+  font-size: 28px;
+  font-weight: 700;
+}
+}
+
 .banner-section-bg-container {
   background-image: url("https://hungerbay.com/assets/images/b6.jpg");
   height: 100vh;
@@ -59,8 +233,6 @@ html{
   border-radius: 8px;
   margin-right: 10px;
 }
-
-
 .custom-button:hover{
     background-image: linear-gradient(#FFFDD0, #FFFDD0);
     color: #d0b200;
@@ -75,22 +247,6 @@ html{
   border-color: #d0b200;
   border-radius: 8px;
 }
-
-
-.wcu-section {
-  background-color: #FFFDD0;
-}
-.wcu-section-heading {
-  color: #183b56;
-  font-family: "DM Serif";
-  font-size: 28px;
-  font-weight: 700;
-}
-.wcu-section-description {
-  color: #5a7184;
-  font-family: "Roboto";
-  font-size: 16px;
-}
 .wcu-card {
   text-align: center;
   background-color: white;
@@ -99,12 +255,10 @@ html{
   border-color: #e5eaf4;
   border-radius: 16px;
 }
-
 .wcu-card:hover{
   border-color: rgb(216, 164, 42);
   opacity: 0.7;
 }
-
 .wcu-card-image {
   width: 87px;
   height: 90px;
@@ -125,24 +279,8 @@ html{
   font-style: italic;
   font-weight: 600;
 }
-.explore-menu-section {
-  background-color: white;
-}
-.menu-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
-}
 .menu-item-image {
   border-radius: 16px;
-}
-.menu-card-title {
-  color: #323f4b;
-  font-family: "Norican";
-  font-size: 30px;
-  font-weight: 500;
-  margin-top: 24px;
 }
 .menu-item-link {
   color: #d0b200;
@@ -153,60 +291,16 @@ html{
 .menu-item-card {
   border-radius: 16px;
 }
-.healthy-food-section {
-  background-color: #f9fbfe;
-}
 .healthy-food-section-img {
   width: 270px;
 }
-.healthy-food-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
-}
-.healthy-food-section-description {
-  color: #5a7184;
-  font-family: "Anybody";
-  font-size: 16px;
-  font-weight: 700;
-}
-.delivery-and-payment-section {
-  background-color: white;
-}
 .delivery-and-payment-section-img {
   width: 270px;
-}
-.delivery-and-payment-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
-  font-weight: 700;
-}
-.delivery-and-payment-section-description {
-  color: #5a7184;
-  font-family: "Anybody";
-  font-size: 16px;
-  font-weight: 700;
 }
 .payment-card-img {
   width: 50px;
   height: 50px;
   margin-right: 28px;
-}
-.thanking-customers-section {
-  background-image: radial-gradient(#fff8db, #fae38c);
-}
-.thanking-customers-section-heading {
-  color: #183b56;
-  font-family: "Reenie Beanie";
-  font-size: 35px;
-  font-weight: 700;
-}
-.thanking-customers-section-description {
-  color: #5a7184;
-  font-family: "Anybody";
-  font-size: 20px;
 }
 .thanking-customers-section-img {
   width: 270px;
@@ -215,16 +309,6 @@ html{
 .thanking-customers-section-modal-title {
   color: #d0b200;
   font-weight: 800;
-}
-.follow-us-section {
-  background-color: white;
-}
-.follow-us-section-heading {
-  text-align: center;
-  color: #183b56;
-  font-family: "Oleo Script";
-  font-size: 28px;
-  font-weight: 700;
 }
 .follow-us-icon-container {
   background-color: #faf7e8;
